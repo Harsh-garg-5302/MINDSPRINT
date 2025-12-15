@@ -1,0 +1,59 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# Django
+# =========================
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Django secret files
+.env
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Migrations (optional)
+# =========================
+**/migrations/*
+!**/migrations/__init__.py
+
+# =========================
+# Test & Coverage
+# =========================
+htmlcov/
+.coverage
+.pytest_cache/
+
+# =========================
+# Node (if using frontend)
+# =========================
+node_modules/
+
+db.sqlite3
+*.sqlite3
